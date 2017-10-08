@@ -1,20 +1,20 @@
 {
-    "name": "anax/postcomments",
+    "name": "litemerafrukt/postcomments",
     "type": "library",
-    "description": "Anax postcomments module.",
+    "description": "litemerafrukt postcomments module.",
     "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
-    "homepage": "https://dbwebb.se/anax",
+    "homepage": "http://litemerafrukt.se",
     "license": "MIT",
     "authors": [
         {
             "name": "Anders Nygren",
             "email": "litemerafrukt@gmail.com",
-            "homepage": "https://dbwebb.se",
+            "homepage": "http://litemerafrukt.se",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/canax/postcomments/issues"
+        "issues": "https://github.com/litemerafrukt/postcomments/issues"
     },
     "autoload": {
         "psr-4": {
