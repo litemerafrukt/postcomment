@@ -26,6 +26,16 @@ class Database
     }
 
     /**
+     * Retrieve pdo. For testing.
+     *
+     * @return \PDO
+     */
+    public function pdo()
+    {
+        return $this->pdo;
+    }
+
+    /**
      * Execute query and return the PDOStatement
      *
      * @param string

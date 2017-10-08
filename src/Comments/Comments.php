@@ -13,7 +13,7 @@ class Comments
      * @param $db - database objekt. See source for interface.
      * @param $rootView - root view file for comments html rendering. See source for example.
      */
-    public function __construct($commentHandler, $rootView = __DIR__.'/view/comments.php')
+    public function __construct($commentHandler, $rootView = __DIR__.'/../../view/comments.php')
     {
         $this->commentHandler = $commentHandler;
         $this->rootView = $rootView;
