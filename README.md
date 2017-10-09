@@ -13,7 +13,7 @@ Anax postcomments
 <!--
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929/mini.png)](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929)
 -->
-[![](https://codescene.io/projects/1749/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/1749/jobs/latest-successful/results)
+[![](https://codescene.io/projects/1749/status.svg)](https://codescene.io/projects/1749/jobs/latest-successful/results)
 
 ---
 
