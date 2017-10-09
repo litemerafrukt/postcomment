@@ -25,6 +25,8 @@ This module is built to fit in an [Anax](https://github.com/canax) project but s
 Install
 ------------------
 
+PHP version > 7.0.
+
 `$ composer require litemerafrukt/postcomments`
 
 Setup your database with a table for the commments, see `vendor/litemerafrukt/postcomments/src/extras`.
