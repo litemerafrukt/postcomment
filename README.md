@@ -15,6 +15,8 @@ Anax postcomments
 -->
 [![](https://codescene.io/projects/1749/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/1749/jobs/latest-successful/results)
 
+---
+
 Reddit-like comments to posts.
 
 Uses view-files recursively to achieve nested comments. There are default view files. If you want to define your own views then look at the included view files for examples. The `Comments` class takes a top level view file as optional parameter.
