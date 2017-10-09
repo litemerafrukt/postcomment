@@ -1,18 +1,19 @@
 Anax postcomments
 ==================================
 
+[![Latest Stable Version](https://poser.pugx.org/litemerafrukt/postcomments/v/stable)](https://packagist.org/packages/litemerafrukt/postcomments)
 <!--
-[![Latest Stable Version](https://poser.pugx.org/anax/postcomments/v/stable)](https://packagist.org/packages/anax/postcomments)
 [![Join the chat at https://gitter.im/mosbth/anax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/canax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 -->
 [![Build Status](https://travis-ci.org/litemerafrukt/postcomments.svg?branch=master)](https://travis-ci.org/litemerafrukt/postcomments)
 [![CircleCI](https://circleci.com/gh/litemerafrukt/postcomments.svg?style=svg)](https://circleci.com/gh/litemerafrukt/postcomments)
+[![Build Status](https://scrutinizer-ci.com/g/litemerafrukt/postcomments/badges/build.png?b=master)](https://scrutinizer-ci.com/g/litemerafrukt/postcomments/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/litemerafrukt/postcomments/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/litemerafrukt/postcomments/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/litemerafrukt/postcomments/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/litemerafrukt/postcomments/?branch=master)
 <!--
-[![Build Status](https://scrutinizer-ci.com/g/canax/postcomments/badges/build.png?b=master)](https://scrutinizer-ci.com/g/canax/postcomments/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/canax/postcomments/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/canax/postcomments/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/canax/postcomments/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/canax/postcomments/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929/mini.png)](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929)
 -->
+[![](https://codescene.io/projects/1749/status.svg) Get more details at **codescene.io**.](https://codescene.io/projects/1749/jobs/latest-successful/results)
 
 Reddit-like comments to posts.
 
