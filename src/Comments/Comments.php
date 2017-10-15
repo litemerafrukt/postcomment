@@ -52,7 +52,7 @@ class Comments
     {
         $comment = $this->commentHandler->fetch($id);
 
-        if ($guard($comment)) {
+        if (! $guard($comment)) {
             return false;
         }
 

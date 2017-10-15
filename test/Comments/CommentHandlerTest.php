@@ -52,7 +52,7 @@ class CommentHandlerTest extends TestCase
         $chand->deleteComments(100);
     }
 
-    public function testRetrieveCommentsForPost()
+    public function testCreateAndRetrieveCommentsForPost()
     {
         $postId = 100;
         $parentId = 0;
@@ -78,5 +78,29 @@ class CommentHandlerTest extends TestCase
 
         $this->assertNotNull($com['created']);
         $this->assertNull($com['updated']);
+    }
+
+    public function testCreateAndUpsertComment()
+    {
+        $postId = 100;
+        $parentId = 0;
+        $authorId = 1;
+        $authorName = 'Whoever';
+        $text = 'Whatever';
+
+        $chand = new CommentHandler(self::$db);
+
+        $chand->new($postId, $parentId, $authorId, $authorName, $text);
+
+        // $comForPost100 = $chand->commentsForPost(100);
+
+        $lastInsertId = self::$db->pdo()->lastInsertId();
+
+        $chand->upsert($lastInsertId, "Changed");
+
+        $resCom = $chand->fetch($lastInsertId);
+
+        $this->assertEquals("Changed", $resCom['text']);
+        $this->assertNotNull($resCom['updated']);
     }
 }

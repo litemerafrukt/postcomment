@@ -21,7 +21,7 @@ Reddit-like comments to posts.
 
 Uses view-files recursively to achieve nested comments. There are default view files. If you want to define your own views then look at the included view files for examples. The `Comments` class takes a top level view file as optional parameter.
 
-`CommentsHandler` class needs a simple database class with a `query`-method. Look at the supplied `Database` class for the interface if you want to build your own. The database needs to be setup with a comments table, se `src/extras` folder for schema. Table name can optionally be supplied to `CommentsHandler` constructor, defaults to `r1_comments`.
+`CommentsHandler` class needs a simple database class with a `query`-method. Look at the supplied `Database` class for the interface if you want to build your own (which you should). The database needs to be setup with a comments table, se `src/extras` folder for schema. Table name can optionally be supplied to `CommentsHandler` constructor, defaults to `r1_comments`.
 
 This module is built to fit in an [Anax](https://github.com/canax) project but should fit in to any project with a little work. At the same time, this is not a fit all package, this is written for a specific project.
 

@@ -82,10 +82,7 @@ class CommentHandler
      */
     public function commentsForPost($id)
     {
-       // Lookup in database
         $sql = "SELECT * from $this->table WHERE postId=?";
-        // $comments = $this->db->query2collection($sql, [$id])
-        //     ->groupBy('parentId');
 
         $comments = $this->db->query($sql, [$id])
             ->fetchAll(\PDO::FETCH_ASSOC);
@@ -93,7 +90,5 @@ class CommentHandler
         $groupedComments = array_group_by($comments, 'parentId');
 
         return $groupedComments;
-
-        // return $comments->toArray();
     }
 }
